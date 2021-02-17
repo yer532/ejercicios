@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>formulario de inscripcion</title>
+</head>
+<body>
+    <form action="formulario.html" method="POST">          
+ 
+         <p align="center"><label>nombre: <input type="text" name="nombre"></label></p>
+        <p align="center"><label>apellidos: <input type="text" name="apellidos"></label></p>                                                      
+        <p align="center"><label>direccion: <input type="text" name="direccion"></label></p>
+        <p align="center"><label> telefono: <input type="tel" name="telefono"></label></p>  
+        <p align="center"><label> correo electronico: <input type="email" name="correo" size="40"></label></p> 
+        <p align="center"><label>Contraseña: <input type="password" name="pass"></label></p>      
+        <p align="center"><label> es becado: <input type="checkbox" name="casilla">si <input type="checkbox" name="casilla">no
+        <p align="center"><label> fecha de nacimiento: <input type="date" name="fecha"></label></p>  
+        <p align="center"><label> color distintivo: <input type="color" name="colorElegido"></label></p>  
+        <p align="center"><label> acerca de mi: <textarea name="texto" rows="4" cols="40" placeholder="Escriba algo"></textarea>
+        <p align="center">Sexo:
+            <input type="radio" name="hm" value="h"> Hombre
+            <input type="radio" name="hm" value="m"> Mujer
+          </p> 
+        <p align="center"><label> area de estudio: <select name="menu" >
+            <option>derecho</option>
+            <option>ingenieria</option>
+            <option>medicina</option>
+          </select> 
+
+        <p align="center"><input type="submit" value="Enviar datos"></p>
+        <p align="center"><input type="reset" value="Borrar datos"></p>
+</form>
+</body>
+</html>
